@@ -57,6 +57,7 @@
                         <div class="flex flex-col cursor-pointer shadow-xl md:flex-row border-2 border-black p-4 h-full">
                             <div class="flex items-center justify-center md:w-1/3 p-1">
                                 <?php if (!empty($tartisma['gorsel_yolu']) && file_exists($tartisma['gorsel_yolu'])): ?>
+                  
                                     <img src="<?= htmlspecialchars($tartisma['gorsel_yolu']) ?>" alt="Görsel" class="w-full h-auto">
                                 <?php else: ?>
                                     <img src="images/message.png" alt="Varsayılan Görsel" class="w-full h-auto">
